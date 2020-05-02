@@ -13,11 +13,11 @@ time.sleep(4)
 num_infected_ppl = int(input("How many people are currently infected? Please enter a INTEGER number with no commas. Then press enter.      "))
 days_sim = int(input("How many days of infection growth do you want to simulate? Please enter a INTEGER number with no commas. Then press enter.      "))
 
-print(f"The current number of people with COVID-19 is {num_infected_ppl:,} {days_sim} days worth of infection growth.\m")
+print(f"The current number of people with COVID-19 is {num_infected_ppl:,} {days_sim} days worth of infection growwhile VARIABLE FOR DAY NUMBER <= NUMBER OF DAYS TO SIMULATE:
 
-# Remove the comment on the next line and change the two variables to reflect the variable names you used. 
-# while VARIABLE FOR DAY NUMBER <= NUMBER OF DAYS TO SIMULATE:
-    
+
+while current_day <= days_sim:
+    print("This is an example.\n)
     # Write an assignment statement (use =) to double the number of infected people. 
     # Write an assignment statement (use =) to multiply the number of infected people by the mortality rate to find the number of deaths.
     # Write a print() statement that displays the number of infected people and the number of deaths. 
